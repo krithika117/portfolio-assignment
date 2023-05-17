@@ -17,7 +17,7 @@ h4,
 h5,
 h6 {
     font-family: 'Wix Madefor Display', sans-serif;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .container {
@@ -26,6 +26,8 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
 }
 
 .image {
@@ -40,15 +42,30 @@ p {
 .typing-animation {
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 3s steps(60) infinite;
+    animation: typing 5s steps(60) 1;
 }
 
+/* Animations */
 @keyframes typing {
-    from {
+    0% {
         width: 0;
     }
 
-    to {
+    70% {
         width: 100%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
