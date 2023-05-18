@@ -87,7 +87,7 @@ nav {
 
 #menu-toggle:checked~.menu {
     display: block;
-    opacity: 0.8;
+    opacity: 1;
     visibility: visible;
     height: 95vh;
     display: flex;
@@ -110,6 +110,30 @@ nav {
     text-decoration: none;
 }
 
+button {
+    background-color: #c99206;
+    color: #ffffff;
+    padding: 10px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #a47600;
+    transition: 0.5s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo{
+    max-width:3rem;
+    padding: 0.5rem;
+}
 /* Animation */
 @keyframes typing {
     0% {
