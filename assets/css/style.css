@@ -130,9 +130,13 @@ a {
     text-decoration: none;
 }
 
-.logo{
-    max-width:3rem;
+.logo {
+    max-width: 3rem;
     padding: 0.5rem;
+}
+
+.item {
+    margin: 1rem 0;
 }
 
 /* Animation */
