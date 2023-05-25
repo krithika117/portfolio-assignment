@@ -139,6 +139,16 @@ a {
     margin: 1rem 0;
 }
 
+/* @media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container .image {
+        order: 1;
+    }
+} */
+
 /* Animation */
 @keyframes typing {
     0% {
